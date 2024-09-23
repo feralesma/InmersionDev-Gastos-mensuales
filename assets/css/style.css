@@ -65,9 +65,9 @@ ul li:last-child {
     justify-content: center;
     top: 110px;
     left: 120px;
-    width: 1200px;
+    width: auto;
     min-height: 80vh;
-    margin: 0px auto;
+    margin: 5px auto;
     padding: 20px;
     background: linear-gradient(0deg, rgba(20, 68, 128, 0.3), rgba(20, 68, 128, 0.3)),
         linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
