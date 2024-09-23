@@ -18,7 +18,7 @@ function clickBoton() {
     console.log(listaNombresGastos)
 
     if (!nombreGasto || !descripcionGasto || !valorGasto) {
-      alert("Debe completar todos los campos!!.");
+    alert("Debe completar todos los campos!!.");
       return; // salir de la función
     }
 
@@ -51,7 +51,7 @@ function actualizarListaGastos() {
 
 
         htmlLista += `<li>${elemento} - ${descripcionGasto} - USD ${valorGasto.toFixed(2)}
-            <div>
+            <div class="items-group" style="display: flex;">
             <button onclick="eliminarGasto(${posicion});">Eliminar</button>
             <button onclick="modificarGasto(${posicion});">Modificar</button>
             </div>
