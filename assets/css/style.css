@@ -5,9 +5,9 @@ body {
 
 
     background-size: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     /* Hace que la imagen cubra todo el área del elemento */
-    background-position: right;
+    background-position: top;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -33,6 +33,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    /* margin-right: 10px */
 }
 
 button:hover {
@@ -53,7 +54,11 @@ ul li {
     background-color: #041832;
     border-bottom: 1px solid #eee;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    /* flex-grow: 1; */
+
 }
 
 ul li:last-child {
@@ -67,7 +72,7 @@ ul li:last-child {
     left: 120px;
     width: auto;
     min-height: 80vh;
-    margin: 5px auto;
+    margin: 6px;
     padding: 20px;
     background: linear-gradient(0deg, rgba(20, 68, 128, 0.3), rgba(20, 68, 128, 0.3)),
         linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
